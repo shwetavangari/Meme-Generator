@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #7D5FFF; */
+    background: url(meme3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+
+}
+.box{
+    width: 23%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px #934F04;
+}
+.box img{
+    width: 100%;
+    height: 45svh;
+    border: 1px solid black; 
+}
+.box h3{
+    padding: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    /* letter-spacing: .2px; */
+}
+.box button{ 
+    padding: .7rem 1.8rem;
+    background-color: #F6BF24;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #EFC825;
+    background-color: #EFC825;
+}
